@@ -1,0 +1,39 @@
+.price{
+
+color: rgb(167, 214, 255);
+
+margin-left: 800px;
+
+}
+.l{
+    display: flex;
+}
+.v> ul{
+display: flex;
+    color: aliceblue;
+gap: 32px;
+}
+.c> a{
+height: 30px;
+width: 60px;
+padding: 10px;
+background-color: orange;
+border: 1px solid rgb(255, 181, 43);
+border-radius: 20px;
+    color: rgb(55, 60, 90);
+    text-decoration: underline rgb(255, 181, 40);
+    margin-left: 40px;
+font-weight: bolder;
+}
+.c> a:hover{
+    background-color: rgb(253, 98, 42);
+    transition: 0.2s;
+text-decoration: underline orangered;
+border: 2px solid orangered;
+border-radius: 20px;
+}
+@media screen and (min-width:300px) {
+    .abc{
+        background-color: black;
+    }
+}
